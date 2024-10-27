@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/1299326093077250078/1299870350258999326/crunshyroll.jpg?ex=671ec619&is=671d7499&hm=399181a068fad4d840a4e739c88215075e55489f46cdbc3502c75682a87274e9&); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0; 
+    height: 100vh;
+}

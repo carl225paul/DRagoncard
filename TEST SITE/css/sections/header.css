@@ -1,0 +1,60 @@
+.header__nav {
+  display:flex;  
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+
+}
+
+
+.header__logo {
+    padding: 10px 20px;
+    font-weight: 450;
+    font-family: hongkonghustle , sans-serif;
+    cursor: default;
+    font-size: 25px;
+
+    }
+
+
+    @font-face {
+        font-family: hongkonghustle ; 
+        src: url(../../Fonts/hongkonghustle.ttf) format('truetype');
+    }
+
+
+    .text__degrade {
+
+        background: linear-gradient(to right, yellow, orange, darkorange);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color:transparent
+    } 
+
+    .header__button {
+
+        font-weight: 400;
+        font-family: 'hongkonghustle';
+
+        padding: 13px;
+        margin: 5px;
+        border-radius: 7%;
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+    }
+
+    .header__button:hover {
+
+        background-color: black;
+        color: white;
+        
+
+    }
+
+.header__menu-mobile{
+    display: none;
+}
+
+

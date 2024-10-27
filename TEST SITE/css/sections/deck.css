@@ -1,0 +1,36 @@
+
+@font-face {
+    font-family:'hongkonghustle.ttf' ;
+    src: url(../../Fonts/hongkonghustle.ttf);
+}
+
+.deck1 {
+    display:flex;  
+    justify-content: space-around;
+    align-items: center;
+    font-family: "hongkonghustle.ttf";
+    height:100vh;
+}
+    
+.deck2 {
+    display:flex;  
+    justify-content: space-around;
+    align-items: center;
+    font-family: "hongkonghustle.ttf";
+    border-width: 2px;
+    margin: 10px;
+
+    padding: 15px 30px;
+    border-radius: 9%;
+    
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+    
+.deck2:hover {
+    background: linear-gradient(to right, yellow, orange, darkorange);
+    color: white;
+    border-color: rgb(247, 141, 4);
+    transform: scale(1.2);
+
+}
